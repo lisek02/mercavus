@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "passion": "Medium",
+    "name": "Football",
+    "year": 1994
+  },
+  {
+    "id": 2,
+    "passion": "High",
+    "name": "Basketball",
+    "year": 1998
+  },
+  {
+    "id": 3,
+    "passion": "Low",
+    "name": "Tennis",
+    "year": 1999
+  }
+]

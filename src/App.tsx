@@ -1,7 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { HobbiesTable } from './components/HobbiesTable';
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import "./App.css";
+import { HobbiesContainer } from "./containers/Hobbies.container";
 
 const App: React.FC = () => {
   return (
@@ -9,11 +9,11 @@ const App: React.FC = () => {
       <header className="App-header">
         <h1>User hobbies</h1>
       </header>
-      <section>
-        <HobbiesTable />
-      </section>
+      <Router>
+        <Route path="/" exact component={HobbiesContainer} />
+      </Router>
     </div>
   );
-}
+};
 
 export default App;

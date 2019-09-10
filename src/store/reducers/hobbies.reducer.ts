@@ -13,6 +13,7 @@ export function hobbiesReducer(state = initialState, action: IHobbiesActions) {
     case GET_HOBBIES:
       return {
         ...state,
+        list: action.payload,
       };
 
     default:
